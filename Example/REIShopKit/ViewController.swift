@@ -8,11 +8,21 @@
 
 import UIKit
 
+import REIShopKit
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        print("loaded")
+            
+        FooUtil.fooClassStuff();
+        
+        let b = BarUtil()
+        b.barInstanceStuff();
     }
 
     override func didReceiveMemoryWarning() {

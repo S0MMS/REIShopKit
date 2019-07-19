@@ -27,3 +27,4 @@ S0MMS, cshreve@rei.com
 ## License
 
 REIShopKit is available under the MIT license. See the LICENSE file for more info.
+# REIShopKit
