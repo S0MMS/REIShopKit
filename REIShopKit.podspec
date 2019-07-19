@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'REIShopKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A meaningful description of REIShopKit.'
 
 # This description is used to generate tags and improve search results.
