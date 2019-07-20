@@ -1,28 +1,24 @@
 //
-//  FooUtil.swift
-//  Nimble
+//  BazUtil.swift
+//  REIShopKit_Example
 //
-//  Created by chris1 on 7/19/19.
+//  Created by chris1 on 7/20/19.
+//  Copyright © 2019 CocoaPods. All rights reserved.
 //
 
 import UIKit
 
 import ACPCore
-//import ACPAnalytics
-
-//import RxSwift
+import ACPAnalytics
 
 public class FooUtil: NSObject {
-
-    @objc public func fooInstanceStuff() {
-        print("foo instance stuff")
-    }
     
-    @objc public static func fooClassStuff() {
-        let b = BarUtil()
-        b.barInstanceStuff()
+    @objc public func configureAnalytics() {
         
-        print("foo class stuff")
+        ACPCore.configure(withAppId: "yourAppId")
+        ACPAnalytics.registerExtension()
+        ACPIdentity.registerExtension()
+        ACPCore.start(nil)
     }
     
     @objc public func dispatchAnalytics() {
@@ -35,11 +31,11 @@ public class FooUtil: NSObject {
         contextData["m.purchaseid"] = "1234567890"
         contextData["m.purchase"] = "1"
         
-//        // send the tracking call - use either a trackAction or TrackState call.
-//        // trackAction example:
-//        ACPCore.trackAction("purchase", data: contextData)
-//        // trackState example:
-//        ACPCore.trackState("Order Confirmation", data: contextData)
+        // send the tracking call - use either a trackAction or TrackState call.
+        // trackAction example:
+        ACPCore.trackAction("purchase", data: contextData)
+        // trackState example:
+        ACPCore.trackState("Order Confirmation", data: contextData)
     }
     
 }
