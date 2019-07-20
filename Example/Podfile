@@ -1,6 +1,10 @@
 use_frameworks!
 
+platform :ios, '10.0'
+
 target 'REIShopKit_Example' do
+  pod 'ACPAnalytics', '~> 2.0'
+  pod 'RxSwift'
   pod 'REIShopKit', :path => '../'
 
   target 'REIShopKit_Tests' do

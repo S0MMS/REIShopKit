@@ -1,27 +1,44 @@
 PODS:
+  - ACPAnalytics (2.1.2):
+    - ACPAnalytics/iOS (= 2.1.2)
+    - ACPCore (>= 2.1.1)
+  - ACPAnalytics/iOS (2.1.2):
+    - ACPCore (>= 2.1.1)
+  - ACPCore (2.3.2):
+    - ACPCore/iOS (= 2.3.2)
+  - ACPCore/iOS (2.3.2)
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - REIShopKit (0.1.0)
+  - REIShopKit (0.1.4)
+  - RxSwift (5.0.0)
 
 DEPENDENCIES:
+  - ACPAnalytics (~> 2.0)
   - Nimble (~> 7.0)
   - Quick (~> 1.2.0)
   - REIShopKit (from `../`)
+  - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ACPAnalytics
+    - ACPCore
     - Nimble
     - Quick
+    - RxSwift
 
 EXTERNAL SOURCES:
   REIShopKit:
     :path: "../"
 
 SPEC CHECKSUMS:
+  ACPAnalytics: 872c4701bd53b508602ce1e31cf5e7cee295f690
+  ACPCore: 4461c6462adec0e103d6fc1e9bdc21dee8a991e0
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  REIShopKit: 90b4b69ad3e6d6172343a13f2cc9e57624985cf1
+  REIShopKit: f91f098bdbfccba30252aa60a28e92b95faaeb9f
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: e82eb6273eeb2fba42a6ab1102e374aa3414b8ee
+PODFILE CHECKSUM: 12821ca22f5852ed8d64c533723882a9732f5d34
 
 COCOAPODS: 1.7.4
