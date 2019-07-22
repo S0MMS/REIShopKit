@@ -1,6 +1,6 @@
 {
   "name": "REIShopKit",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "summary": "A meaningful description of REIShopKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/S0MMS/REIShopKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/S0MMS/REIShopKit.git",
-    "tag": "0.1.5"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,8 +22,11 @@
   "swift_versions": "4.2",
   "static_framework": true,
   "dependencies": {
+    "ACPCore": [
+      "~> 2.3"
+    ],
     "ACPAnalytics": [
-      "~> 2.0"
+      "~> 2.1"
     ]
   },
   "swift_version": "4.2"

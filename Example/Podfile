@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'REIShopKit_Example' do
-  pod 'ACPAnalytics', '~> 2.0'
-  #pod 'RxSwift'
+  pod 'ACPCore', '~> 2.3'
+  pod 'ACPAnalytics', '~> 2.1'
   pod 'REIShopKit', :path => '../'
 
   target 'REIShopKit_Tests' do

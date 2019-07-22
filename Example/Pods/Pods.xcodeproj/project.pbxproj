@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0042CAC493E1B90283171656856EFED3 /* REIShopKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01185187F1E58C3CFE4501137E3F605C /* REIShopKit-dummy.m */; };
 		01869817854E030910D5C2F7FB4D64BB /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAFE4454AF2A0507E4F25BC0E08CB0 /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		01DAA6DD1809A39129FF7C72DDF93054 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7A87F304C43E7174D19A3FDABD35FC /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02A594FA40003BAC6B899F718A353AB9 /* ACPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1828ED57EB5E39DD780CFF1C6BDEA7 /* ACPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +18,7 @@
 		0F2A9537979F582CEA3A22C8FF914533 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFEEC370A249C18B533232755CB89B /* World+DSL.swift */; };
 		0F84A78F54745FD70486B9F7A68C72EC /* Pods-REIShopKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 321466C47BE5C30B7D4A945D087AF9CD /* Pods-REIShopKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1098AC9B0A4F55B1CCF3C32D46C65FF8 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCC0D48A9876FA94EE1199D4DC2746A /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		11BDB705F029377875467F916841C725 /* REIShopKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01185187F1E58C3CFE4501137E3F605C /* REIShopKit-dummy.m */; };
 		11E562107FE281404113395BA7DA35D8 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7202948D3E2DBF44C6A2BFA2160D3532 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		11EDFDE1BC5494E14D6F81320FE3925F /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F64F6DBA61E996FA9A56ADFE3C82D7 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16910B6242872F65FFF08F230A456211 /* Pods-REIShopKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B31D46A699F31CDE4F1B6473AE97BE5 /* Pods-REIShopKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,8 +49,10 @@
 		444242F3A5A087132A93CA36017AD620 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3026C9912D8426BC5F992A17E36C4 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		447080444072D30D8BFDE60E1511192C /* Pods-REIShopKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66998EDE73C484FFDE1C08F93A7A8858 /* Pods-REIShopKit_Example-dummy.m */; };
 		4E6C1BDB49792E543CECE735A1A5B252 /* ACPCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815CC0AA1099E434981C063FA524ED03 /* ACPCore-dummy.m */; };
+		5554D4BBC1950EFCF6920D28AAD7835B /* REIShopKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4A92E7E0FB5E09BDDA9491205FC470 /* REIShopKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		561BE9D824E69DE2B0E24947326A6A9B /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6976E18DB53622B60EF4B066E0321E1 /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		582504F6F6C4816869B40C600EE6BE70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		584FAF2D6CE71061E8F2434938C9B3AD /* FooUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FEC2A704A2760DBF06526BA6AD7256 /* FooUtil.swift */; };
 		5A49B2C87AABFAED124DE8DDCC2FEAA1 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 510F4579721A541BF6A3A2F0631E7ADD /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5CE5E8EA75E0B3DC5BE140B61DF37EFD /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF744E878DE2E4E863D18F009152E47E /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F3B71C56395F5BCE2BAB106D780A316 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF190792CDC2227FE06DA6E4B0D4205D /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -66,6 +68,7 @@
 		72EAF9D11A6F6AA098FDA5BF0D9614B3 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542B79EE32A4145A4F192D30BAD1C83 /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		74D7F0EE1E6DFC6758E45F160A2DA563 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FA34F76CAC10552E9F664897EC203 /* ExampleMetadata.swift */; };
 		75715424923FF012103361F76C7A8A05 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE88DC486B29FA5E92C4248142425B3 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		778D95266F1DAB8E3105C5DA63E50BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		77CC261294B63B80E6C4285045943438 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91371FA13B7609D7DF6D1992CBA7353 /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7B75ED8D69300DE8D803ACEB12900AE3 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A0460180ED007588437A9E484D030565 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
 		7BF64B8EB111B20098752B4813CD13D9 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E279F6C048678D42CCB977C908A2AB /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -78,7 +81,6 @@
 		8A2AADAB3E3CBA788D4DF80984DADFE8 /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC018E420C78FCCF8F81C7555EEF /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		8C80AF6BFB6ECE92C08F9BAA34085B06 /* ACPMobileVisitorId.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5CA0414AF696949B07D7E0978616ED /* ACPMobileVisitorId.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D16EAB20CD849E7DC1B1EDCEF61067D /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AE30127CC3D346D5D82D58F58AD377 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		915A0F37ACCEB521BE2A2B8FC0545C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		943EF9191F50F5C8364BFB46E6FFCACB /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DA3119AD2F1785F1559A1BAADACD7B /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		9452493EEAF67E7B9C9224D696ABBA8B /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6153A793F23D6A8E513BFF2DEFDCDEC /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		9569B9F2B661C9425703527A5704104B /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 852D756275E00507D266C93585BF54E8 /* QCKDSL.m */; };
@@ -97,10 +99,10 @@
 		A82232B7EA64317A4F0A1F5FC2C9F5D6 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE0C6A053C62A7C9452BD17DD78E67 /* BeLessThanOrEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AB7A087F4F097DF5439A4503B2221E8C /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5CA9EEA4A891DEA28CEFCB28381A9D /* SatisfyAllOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AC07189DEA030365C05F5501A8F0498E /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA6C19A9E1FE691978FCB68E8AB79A /* Functional.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		AE649F44E924396707DF66A39D8B8102 /* BarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4BDFCE7A0FB6DEC2D05D0EA4378776 /* BarUtil.swift */; };
 		B115E823B892182BA5AC95FE792E3318 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340230F8FDC04B915E88D909F59AB9CF /* HooksPhase.swift */; };
 		B4374EE986ACDA18DE16359C36F43971 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A75F75FBBB6FFDA9D194EE878CA99 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B7765DD0B31748724E386AA238799A93 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E18AE2B14EA06DCCAEF58ECF24239B /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		BC1EE691F1365CC56AAC013FECE4AED6 /* BarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4BDFCE7A0FB6DEC2D05D0EA4378776 /* BarUtil.swift */; };
 		BDB3FCECD68FF28D4F74698F452063FD /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35DC1A77DC628F3C5D4E08B5499D17 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BE8B6D8BA702869EC5CFFA2B59CDCB6E /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB227F4B0127764E501C0FE95B644EAF /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BEDC36DEA21352A0F346A2513EE0540E /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D472AD32281DE169BC1546F5AD511AC /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -117,7 +119,6 @@
 		CEB0B57C65304E1E2A8C70B2A3FC7A6B /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 540E8212FD847BEE57AF18C22646BE3F /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEE3639053A012D923E8ECCE11B23A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		CF0DBC57CC4BAF16B8A5EE9B15A27A72 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5421958D85C7861DA2C388D3F6A0444 /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		CF7F04576A919194E454733E82FDF61C /* FooUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FEC2A704A2760DBF06526BA6AD7256 /* FooUtil.swift */; };
 		D111493E6CB19611D3D2F62064131203 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE74A051B899983BD269FD844F73F1 /* SuiteHooks.swift */; };
 		D19D7BD8F850EC7C63707DBC61A4842B /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE921FED7F83F6F920B09EDCAD24984 /* QuickTestSuite.swift */; };
 		D355A1A86FF97A4444383C7035DA1E1F /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF92A48634691FC358D94B53A00174E3 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -141,7 +142,6 @@
 		EFC54A225D9A19AA3B71DA36750DBEB9 /* ACPIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2B97FA7F3C982D9EBA9F5436B59BF8 /* ACPIdentity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFC67FB506472146894C81BD6A680894 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE0E8BAF07A3F19BD3821A0CBD88D79 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F29A83114872CA5532F8EDB31BE9225D /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D28703A1B91E845B3FCE05B8F5CD7 /* Behavior.swift */; };
-		F4E2E15D959CBB49B8B2727C0A962076 /* REIShopKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4A92E7E0FB5E09BDDA9491205FC470 /* REIShopKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5F579CACAC5D039AEA52CFD85BAA1DC /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0B8000328E2F4CC997EFE48F4E41 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F93310609CA1D35157D85EFAB3808763 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = C87CC812C2897A64D7D3D4081E008FF1 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAF7FF5CC98733942F81EACBDFA6083F /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 13835B7CD2A35F2F3D7D2AD0F62D59B2 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -155,12 +155,12 @@
 			remoteGlobalIDString = F324573329120F52BFD49392D78B4464;
 			remoteInfo = ACPCore;
 		};
-		1E5497713709DCC181085FC8A026DF06 /* PBXContainerItemProxy */ = {
+		13E7E70B5CED32D9487AE2E32DE50608 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B69FC0E0E62CDDB545E49479C73D8481;
-			remoteInfo = ACPAnalytics;
+			remoteGlobalIDString = F324573329120F52BFD49392D78B4464;
+			remoteInfo = ACPCore;
 		};
 		23B4B20DBC4EBA2859394BD173A1DD24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -168,6 +168,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
 			remoteInfo = Quick;
+		};
+		44E63D5615CFFF053521C21CADE193D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B69FC0E0E62CDDB545E49479C73D8481;
+			remoteInfo = ACPAnalytics;
 		};
 		4A915B11FBB2FD79F638F79A8494D911 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -391,14 +398,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26F60C39AA603A0EA7FDDCD3D7A5D962 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				915A0F37ACCEB521BE2A2B8FC0545C07 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C91566A415BA4DF143D3876B05BD904 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,6 +444,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				892A472BEFAB877A68C0C67B3DCE3460 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3A37A9F09F65C226B70EAA3CCC6CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778D95266F1DAB8E3105C5DA63E50BA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,19 +844,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0674B6A3B3E7E30C05139BED6EBC6797 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4E2E15D959CBB49B8B2727C0A962076 /* REIShopKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12AD2D891FB313B3B23E86EABD57C9B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0F84A78F54745FD70486B9F7A68C72EC /* Pods-REIShopKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FEFBE9A9ED9AE2C8EE190C05ADC23B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5554D4BBC1950EFCF6920D28AAD7835B /* REIShopKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1003,17 +1010,18 @@
 		};
 		C5D5BA5703A033CE4D9211D732422643 /* REIShopKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7E8A16C2BF5F3CD5039C81346A41428 /* Build configuration list for PBXNativeTarget "REIShopKit" */;
+			buildConfigurationList = 01FBB52D555382F9DF0414A136224378 /* Build configuration list for PBXNativeTarget "REIShopKit" */;
 			buildPhases = (
-				0674B6A3B3E7E30C05139BED6EBC6797 /* Headers */,
-				60285C85B3251AAF07431534A1C19CFF /* Sources */,
-				26F60C39AA603A0EA7FDDCD3D7A5D962 /* Frameworks */,
-				F8D11D14C34E48CB8BDDCCF0B7153B5F /* Resources */,
+				25FEFBE9A9ED9AE2C8EE190C05ADC23B /* Headers */,
+				6C64617BE95343E8539D0AF267E58088 /* Sources */,
+				EE3A37A9F09F65C226B70EAA3CCC6CDE /* Frameworks */,
+				D3343F03F8F53D02BB06887C731E8B81 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34F36BEE9E193751F5BC67E19F90C65F /* PBXTargetDependency */,
+				DDE063E0327B0D3B4A5D1842A4FF69E5 /* PBXTargetDependency */,
+				DCB49110ED7311B3D73D1256D05A087C /* PBXTargetDependency */,
 			);
 			name = REIShopKit;
 			productName = REIShopKit;
@@ -1124,14 +1132,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC8F7D18F52867D587FC818BA68080E2 /* Resources */ = {
+		D3343F03F8F53D02BB06887C731E8B81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8D11D14C34E48CB8BDDCCF0B7153B5F /* Resources */ = {
+		EC8F7D18F52867D587FC818BA68080E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1236,13 +1244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60285C85B3251AAF07431534A1C19CFF /* Sources */ = {
+		6C64617BE95343E8539D0AF267E58088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1EE691F1365CC56AAC013FECE4AED6 /* BarUtil.swift in Sources */,
-				CF7F04576A919194E454733E82FDF61C /* FooUtil.swift in Sources */,
-				0042CAC493E1B90283171656856EFED3 /* REIShopKit-dummy.m in Sources */,
+				AE649F44E924396707DF66A39D8B8102 /* BarUtil.swift in Sources */,
+				584FAF2D6CE71061E8F2434938C9B3AD /* FooUtil.swift in Sources */,
+				11BDB705F029377875467F916841C725 /* REIShopKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1290,12 +1298,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34F36BEE9E193751F5BC67E19F90C65F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ACPAnalytics;
-			target = B69FC0E0E62CDDB545E49479C73D8481 /* ACPAnalytics */;
-			targetProxy = 1E5497713709DCC181085FC8A026DF06 /* PBXContainerItemProxy */;
-		};
 		54663C853F0FC2E01D210D780E5505FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = REIShopKit;
@@ -1319,6 +1321,18 @@
 			name = Quick;
 			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
 			targetProxy = 23B4B20DBC4EBA2859394BD173A1DD24 /* PBXContainerItemProxy */;
+		};
+		DCB49110ED7311B3D73D1256D05A087C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = F324573329120F52BFD49392D78B4464 /* ACPCore */;
+			targetProxy = 13E7E70B5CED32D9487AE2E32DE50608 /* PBXContainerItemProxy */;
+		};
+		DDE063E0327B0D3B4A5D1842A4FF69E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPAnalytics;
+			target = B69FC0E0E62CDDB545E49479C73D8481 /* ACPAnalytics */;
+			targetProxy = 44E63D5615CFFF053521C21CADE193D8 /* PBXContainerItemProxy */;
 		};
 		E8B95F7D040975C53B9A30C7F3B43236 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1473,39 +1487,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		37E7A436788CBEA07F9DBE901390F300 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5865C810D06186DA3A80ABD17142258B /* REIShopKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/REIShopKit/REIShopKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/REIShopKit/REIShopKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/REIShopKit/REIShopKit.modulemap";
-				PRODUCT_MODULE_NAME = REIShopKit;
-				PRODUCT_NAME = REIShopKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		392E56796023918A6CF5DA77118A44C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1706,6 +1687,40 @@
 			};
 			name = Release;
 		};
+		AD7430D533FF20C919268D61AA64EB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5865C810D06186DA3A80ABD17142258B /* REIShopKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/REIShopKit/REIShopKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REIShopKit/REIShopKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/REIShopKit/REIShopKit.modulemap";
+				PRODUCT_MODULE_NAME = REIShopKit;
+				PRODUCT_NAME = REIShopKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1766,6 +1781,39 @@
 			};
 			name = Release;
 		};
+		B36E0A8630CC82652C15A598685D00CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5865C810D06186DA3A80ABD17142258B /* REIShopKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/REIShopKit/REIShopKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REIShopKit/REIShopKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/REIShopKit/REIShopKit.modulemap";
+				PRODUCT_MODULE_NAME = REIShopKit;
+				PRODUCT_NAME = REIShopKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C4DB5C29B71786FCD90EE4C9F60206D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 353E332374AEFC40C2D459BB4988AD8E /* Quick.xcconfig */;
@@ -1796,40 +1844,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		CAE5C2E4345903AC6E7EB1FED99AA5F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5865C810D06186DA3A80ABD17142258B /* REIShopKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/REIShopKit/REIShopKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/REIShopKit/REIShopKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/REIShopKit/REIShopKit.modulemap";
-				PRODUCT_MODULE_NAME = REIShopKit;
-				PRODUCT_NAME = REIShopKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D1A0F3F770B80A33DDDD7202DCD33580 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1933,6 +1947,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01FBB52D555382F9DF0414A136224378 /* Build configuration list for PBXNativeTarget "REIShopKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36E0A8630CC82652C15A598685D00CF /* Debug */,
+				AD7430D533FF20C919268D61AA64EB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0EDE00A0AE7F2ACDA112F853133A5D2F /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1983,15 +2006,6 @@
 			buildConfigurations = (
 				FB2AB507E5D6F31BCF0E9898F6D7E88A /* Debug */,
 				D1A0F3F770B80A33DDDD7202DCD33580 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7E8A16C2BF5F3CD5039C81346A41428 /* Build configuration list for PBXNativeTarget "REIShopKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37E7A436788CBEA07F9DBE901390F300 /* Debug */,
-				CAE5C2E4345903AC6E7EB1FED99AA5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
