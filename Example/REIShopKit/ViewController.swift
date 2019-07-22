@@ -22,12 +22,16 @@ class ViewController: UIViewController {
         
         print("loaded")
             
-        FooUtil.fooClassStuff();
+//        FooUtil.fooClassStuff();
         
-        let b = BarUtil()
-        b.barInstanceStuff();
+//        let b = BarUtil()
+//        b.barInstanceStuff();
         
-        self.dispatchAnalytics()
+//        self.dispatchAnalytics()
+        let f = FooUtil()
+        f.configureAnalytics()
+        f.dispatchAnalytics()
+        print("yeah")
     }
 
     override func didReceiveMemoryWarning() {

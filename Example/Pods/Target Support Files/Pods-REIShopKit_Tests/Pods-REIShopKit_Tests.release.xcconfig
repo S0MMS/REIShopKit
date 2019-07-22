@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/ACPAnalytics" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore" "${PODS_CONFIGURATION_BUILD_DIR}/Nimble" "${PODS_CONFIGURATION_BUILD_DIR}/Quick" "${PODS_CONFIGURATION_BUILD_DIR}/REIShopKit" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/ACPAnalytics" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore" "${PODS_CONFIGURATION_BUILD_DIR}/Nimble" "${PODS_CONFIGURATION_BUILD_DIR}/Quick" "${PODS_CONFIGURATION_BUILD_DIR}/REIShopKit"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ACPAnalytics/ACPAnalytics.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore/ACPCore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Nimble/Nimble.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Quick/Quick.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/REIShopKit/REIShopKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ACPAnalytics/ACPAnalytics.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore/ACPCore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Nimble/Nimble.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Quick/Quick.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/REIShopKit/REIShopKit.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -l"c++" -l"sqlite3.0" -l"z" -framework "Nimble" -framework "Quick" -framework "REIShopKit" -framework "RxSwift" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit" -framework "XCTest" -weak_framework "XCTest"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"sqlite3.0" -l"z" -framework "Nimble" -framework "Quick" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit" -framework "XCTest" -weak_framework "XCTest"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
