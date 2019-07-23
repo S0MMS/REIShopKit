@@ -1,6 +1,6 @@
 {
   "name": "REIShopKit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "A meaningful description of REIShopKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/S0MMS/REIShopKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/S0MMS/REIShopKit.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "10.0"

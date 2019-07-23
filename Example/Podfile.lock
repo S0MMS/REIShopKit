@@ -10,7 +10,7 @@ PODS:
   - NewRelicAgent (6.7.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - REIShopKit (0.2.0):
+  - REIShopKit (0.2.1):
     - ACPAnalytics (~> 2.1)
     - ACPCore (~> 2.3)
     - NewRelicAgent
@@ -41,7 +41,7 @@ SPEC CHECKSUMS:
   NewRelicAgent: effc8c7164f7d8e853268b0a6381ad8e4bf1d6ad
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  REIShopKit: 22ce670b9be6266b2779f8a1894c05320c0f2358
+  REIShopKit: ab2bba2d018c5f12a2af3a90af76d3f9ce573529
 
 PODFILE CHECKSUM: c38ad528959809afd1621fb2cf10c37c7520bbd7
 

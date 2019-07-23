@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BazUtil.h"
 
 FOUNDATION_EXPORT double REIShopKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char REIShopKitVersionString[];
