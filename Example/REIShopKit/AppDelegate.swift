@@ -8,8 +8,12 @@
 
 import UIKit
 
-import ACPCore
-import ACPAnalytics
+//import ACPCore
+//import ACPAnalytics
+//import NewRelic
+//#import <NewRelicAgent/NewRelic.h>
+//import NewRelicAgent
+//import NewRelic
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,10 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        ACPCore.configure(withAppId: "yourAppId")
-        ACPAnalytics.registerExtension()
-        ACPIdentity.registerExtension()
-        ACPCore.start(nil)
+//        ACPCore.configure(withAppId: "yourAppId")
+//        ACPAnalytics.registerExtension()
+//        ACPIdentity.registerExtension()
+//        ACPCore.start(nil)
+        
+//        [NewRelicAgent startWithApplicationToken:@"AA20f451bc102b114645689092c95bb597146165c4"];
+        
+//        NewRelicAgent.start(withApplicationToken: "AA20f451bc102b114645689092c95bb597146165c4")
         
         return true
     }
