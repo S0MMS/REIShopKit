@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26875AF06516269D79DFF9A1 /* Pods_REIShopKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FE36807BD6124D42FADCEB /* Pods_REIShopKit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		64F8F962CC5D378430B4E5C8 /* Pods_REIShopKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C260734F1FC8368A6FEC0D /* Pods_REIShopKit_Example.framework */; };
 		B58857BD22E75A1B00298BC9 /* ObjcUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B58857BC22E75A1B00298BC9 /* ObjcUtil.m */; };
-		E75E78C6B3B39A7F497EC92D /* Pods_REIShopKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13542FE92DCA7BF992AB4251 /* Pods_REIShopKit_Tests.framework */; };
+		E63B7046521D1A6FFD15F106 /* Pods_REIShopKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6724022EC4799C3221E668 /* Pods_REIShopKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13542FE92DCA7BF992AB4251 /* Pods_REIShopKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REIShopKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BD0CB7572EB667D71516CC0 /* Pods-REIShopKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Example/Pods-REIShopKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3A8BF3AECA38DE696DA6ED50 /* Pods-REIShopKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Tests/Pods-REIShopKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56FE36807BD6124D42FADCEB /* Pods_REIShopKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REIShopKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5FFD97166D0FDD5DC87C03 /* REIShopKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = REIShopKit.podspec; path = ../REIShopKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* REIShopKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REIShopKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,15 +42,15 @@
 		607FACE51AFB9204008FA782 /* REIShopKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REIShopKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		767CEB896B6E1EC78B153284 /* Pods-REIShopKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Tests/Pods-REIShopKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F6724022EC4799C3221E668 /* Pods_REIShopKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REIShopKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818F4B4EED066C7A0FCFB7D9 /* Pods-REIShopKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Tests/Pods-REIShopKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8E162BEAF466FE5CE0002EDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AF524059360AAAAEA1CEB4F1 /* Pods-REIShopKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Tests/Pods-REIShopKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B58857BA22E75A1B00298BC9 /* REIShopKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "REIShopKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		B58857BB22E75A1B00298BC9 /* ObjcUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcUtil.h; sourceTree = "<group>"; };
 		B58857BC22E75A1B00298BC9 /* ObjcUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcUtil.m; sourceTree = "<group>"; };
-		B9F5A50203D59DD496DB65B6 /* Pods-REIShopKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Example.release.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Example/Pods-REIShopKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E3C260734F1FC8368A6FEC0D /* Pods_REIShopKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REIShopKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2415B025FCD0BC381A9EA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDFE787C9A97ACA84F78C23E /* Pods-REIShopKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Example.release.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Example/Pods-REIShopKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FE74C19A1CF04A73E5E7DBE5 /* Pods-REIShopKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REIShopKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-REIShopKit_Example/Pods-REIShopKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F8F962CC5D378430B4E5C8 /* Pods_REIShopKit_Example.framework in Frameworks */,
+				E63B7046521D1A6FFD15F106 /* Pods_REIShopKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,13 +66,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E75E78C6B3B39A7F497EC92D /* Pods_REIShopKit_Tests.framework in Frameworks */,
+				26875AF06516269D79DFF9A1 /* Pods_REIShopKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54E045439CBA8224987D17A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6724022EC4799C3221E668 /* Pods_REIShopKit_Example.framework */,
+				56FE36807BD6124D42FADCEB /* Pods_REIShopKit_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +90,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				6415B458BFC67EBB7B534A21 /* Pods */,
-				C9149F42161305FAC9D6E2C7 /* Frameworks */,
+				54E045439CBA8224987D17A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,21 +158,12 @@
 		6415B458BFC67EBB7B534A21 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BD0CB7572EB667D71516CC0 /* Pods-REIShopKit_Example.debug.xcconfig */,
-				B9F5A50203D59DD496DB65B6 /* Pods-REIShopKit_Example.release.xcconfig */,
-				AF524059360AAAAEA1CEB4F1 /* Pods-REIShopKit_Tests.debug.xcconfig */,
-				767CEB896B6E1EC78B153284 /* Pods-REIShopKit_Tests.release.xcconfig */,
+				FE74C19A1CF04A73E5E7DBE5 /* Pods-REIShopKit_Example.debug.xcconfig */,
+				EDFE787C9A97ACA84F78C23E /* Pods-REIShopKit_Example.release.xcconfig */,
+				3A8BF3AECA38DE696DA6ED50 /* Pods-REIShopKit_Tests.debug.xcconfig */,
+				818F4B4EED066C7A0FCFB7D9 /* Pods-REIShopKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C9149F42161305FAC9D6E2C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E3C260734F1FC8368A6FEC0D /* Pods_REIShopKit_Example.framework */,
-				13542FE92DCA7BF992AB4251 /* Pods_REIShopKit_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "REIShopKit_Example" */;
 			buildPhases = (
-				AFE9E64ACA64F5603096C33B /* [CP] Check Pods Manifest.lock */,
+				905FF80333EA67F2E6946A18 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -191,11 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "REIShopKit_Tests" */;
 			buildPhases = (
-				4A813C137AAFCE8D1BC7EFFC /* [CP] Check Pods Manifest.lock */,
+				1E4754032F8CB98F54EB1823 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				FCC5950CDAD7A40029D1CACF /* [CP] Embed Pods Frameworks */,
+				F38B77B56810C45F624B5162 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,7 +269,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4A813C137AAFCE8D1BC7EFFC /* [CP] Check Pods Manifest.lock */ = {
+		1E4754032F8CB98F54EB1823 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,7 +291,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFE9E64ACA64F5603096C33B /* [CP] Check Pods Manifest.lock */ = {
+		905FF80333EA67F2E6946A18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,7 +313,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FCC5950CDAD7A40029D1CACF /* [CP] Embed Pods Frameworks */ = {
+		F38B77B56810C45F624B5162 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,7 +485,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BD0CB7572EB667D71516CC0 /* Pods-REIShopKit_Example.debug.xcconfig */;
+			baseConfigurationReference = FE74C19A1CF04A73E5E7DBE5 /* Pods-REIShopKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -507,7 +507,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F5A50203D59DD496DB65B6 /* Pods-REIShopKit_Example.release.xcconfig */;
+			baseConfigurationReference = EDFE787C9A97ACA84F78C23E /* Pods-REIShopKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -528,7 +528,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF524059360AAAAEA1CEB4F1 /* Pods-REIShopKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3A8BF3AECA38DE696DA6ED50 /* Pods-REIShopKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -549,7 +549,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767CEB896B6E1EC78B153284 /* Pods-REIShopKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 818F4B4EED066C7A0FCFB7D9 /* Pods-REIShopKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

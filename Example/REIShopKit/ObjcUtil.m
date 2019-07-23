@@ -8,18 +8,32 @@
 
 #import "ObjcUtil.h"
 
+//@import REIShopKit;
+#import <BazUtil.h>
 //#import <NewRelicAgent/NewRelic.h>
 
 @implementation ObjcUtil
 
 +(void)setupNewRelic {
 //    [NewRelicAgent startWithApplicationToken:@"AA20f451bc102b114645689092c95bb597146165c4"];
+    [BazUtil setupNewRelic];
 }
 
 +(void)dispatchNewRelicAnalytics
 {
 //    NewRelic.startInteraction(withName: eventName);
 //    [NewRelic startInteractionWithName:@"bams!"];
+    [BazUtil dispatchNewRelicAnalytics];
+}
+
++(void)configAdobe
+{
+    [BazUtil configureAdobe];
+}
+
++(void)dispatchAdobeAnalytics
+{
+    [BazUtil diespatchAdobeAnalytics];
 }
 
 @end

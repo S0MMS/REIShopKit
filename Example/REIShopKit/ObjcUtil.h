@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(void)setupNewRelic;
 +(void)dispatchNewRelicAnalytics;
-
++(void)configAdobe;
++(void)dispatchAdobeAnalytics;
 @end
 
 NS_ASSUME_NONNULL_END

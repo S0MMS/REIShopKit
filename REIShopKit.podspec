@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'REIShopKit'
-  s.version          = '0.1.9'
+  s.version          = '0.2.1'
   s.summary          = 'A meaningful description of REIShopKit.'
 
 # This description is used to generate tags and improve search results.
@@ -45,5 +45,5 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.dependency 'ACPCore', '~> 2.3'
   s.dependency 'ACPAnalytics', '~> 2.1'
-  
+  s.dependency 'NewRelicAgent'
 end

@@ -7,14 +7,18 @@ PODS:
   - ACPCore (2.3.2):
     - ACPCore/iOS (= 2.3.2)
   - ACPCore/iOS (2.3.2)
+  - NewRelicAgent (6.7.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - REIShopKit (0.1.9):
+  - REIShopKit (0.2.0):
     - ACPAnalytics (~> 2.1)
+    - ACPCore (~> 2.3)
+    - NewRelicAgent
 
 DEPENDENCIES:
   - ACPAnalytics (~> 2.1)
   - ACPCore (~> 2.3)
+  - NewRelicAgent
   - Nimble (~> 7.0)
   - Quick (~> 1.2.0)
   - REIShopKit (from `../`)
@@ -23,6 +27,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ACPAnalytics
     - ACPCore
+    - NewRelicAgent
     - Nimble
     - Quick
 
@@ -33,10 +38,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ACPAnalytics: 872c4701bd53b508602ce1e31cf5e7cee295f690
   ACPCore: 4461c6462adec0e103d6fc1e9bdc21dee8a991e0
+  NewRelicAgent: effc8c7164f7d8e853268b0a6381ad8e4bf1d6ad
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  REIShopKit: b16a085290f8f6920e922578f1567b2690c29105
+  REIShopKit: 22ce670b9be6266b2779f8a1894c05320c0f2358
 
-PODFILE CHECKSUM: 517db9c04a207be5c347565cef806b209fdc1ffc
+PODFILE CHECKSUM: c38ad528959809afd1621fb2cf10c37c7520bbd7
 
 COCOAPODS: 1.7.4

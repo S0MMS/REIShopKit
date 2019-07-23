@@ -10,6 +10,7 @@ import UIKit
 
 import ACPCore
 import ACPAnalytics
+//import NewRelicAgent
 
 public class FooUtil: NSObject {
     
@@ -36,6 +37,10 @@ public class FooUtil: NSObject {
         ACPCore.trackAction("purchase", data: contextData)
         // trackState example:
         ACPCore.trackState("Order Confirmation", data: contextData)
+    }
+    
+    @objc public func configureNewRelic() {
+//        NewRelicAgent.start(withApplicationToken: "AA20f451bc102b114645689092c95bb597146165c4")
     }
     
 }

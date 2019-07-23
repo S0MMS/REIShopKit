@@ -32,6 +32,11 @@ class ViewController: UIViewController {
         f.configureAnalytics()
         f.dispatchAnalytics()
         print("yeah")
+        
+        ObjcUtil.setupNewRelic()
+        ObjcUtil.dispatchNewRelicAnalytics()
+        ObjcUtil.configAdobe()
+        ObjcUtil.dispatchAdobeAnalytics()
     }
 
     override func didReceiveMemoryWarning() {
