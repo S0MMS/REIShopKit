@@ -13,11 +13,11 @@
 
 @implementation ShopKitAnalyticsHelper
 
-- (void)configureAdobeAnalytics {
++ (void)configureAdobeAnalytics {
     NSLog(@"configuring Adobe analytics...");
 }
 
-- (void)configureNewRelicAnalytics {
++ (void)configureNewRelicAnalytics {
     NSLog(@"configuring New Relic analytics...");
     [NewRelicAgent startWithApplicationToken:@"AA20f451bc102b114645689092c95bb597146165c4"];
 }

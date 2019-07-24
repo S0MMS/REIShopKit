@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ShopKitAnalyticsHelper : NSObject
 
-- (void)configureAdobeAnalytics;
-- (void)configureNewRelicAnalytics;
++ (void)configureAdobeAnalytics;
++ (void)configureNewRelicAnalytics;
 
 @end
 
