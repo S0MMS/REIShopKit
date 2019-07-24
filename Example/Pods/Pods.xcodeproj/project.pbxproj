@@ -116,9 +116,11 @@
 		AC07189DEA030365C05F5501A8F0498E /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C04246D1E713F391C0DDCEC81F2BD5 /* Functional.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B115E823B892182BA5AC95FE792E3318 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0CC358879ABBC16873D1D7D14284D /* HooksPhase.swift */; };
 		B4374EE986ACDA18DE16359C36F43971 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5216E77520C895853E4DC5E5A4EA4 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		B588581822E8FDEA00298BC9 /* AnalyticsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B588581722E8FDE900298BC9 /* AnalyticsProvider.h */; };
 		B588581B22E8FE5300298BC9 /* UIViewController+ShopAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B588581922E8FE5200298BC9 /* UIViewController+ShopAnalytics.m */; };
 		B588581C22E8FE5300298BC9 /* UIViewController+ShopAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = B588581A22E8FE5200298BC9 /* UIViewController+ShopAnalytics.h */; };
+		B588582122E8FF9C00298BC9 /* ShopKitAnalyticsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B588581E22E8FF3000298BC9 /* ShopKitAnalyticsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B588582222E8FFAF00298BC9 /* AnalyticsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B588581722E8FDE900298BC9 /* AnalyticsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B588582322E8FFDB00298BC9 /* ShopKitAnalyticsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B588581D22E8FF3000298BC9 /* ShopKitAnalyticsHelper.m */; };
 		B7765DD0B31748724E386AA238799A93 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B46B3B14515212C16393025E3A250 /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BDB3FCECD68FF28D4F74698F452063FD /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E0955CDF84EF9B9B08AD951D529F6 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BE8B6D8BA702869EC5CFFA2B59CDCB6E /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFF1866AE8FA7B61616CE461D58D51 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -384,6 +386,8 @@
 		B588581722E8FDE900298BC9 /* AnalyticsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnalyticsProvider.h; path = REIShopKit/Classes/AnalyticsProvider.h; sourceTree = "<group>"; };
 		B588581922E8FE5200298BC9 /* UIViewController+ShopAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ShopAnalytics.m"; path = "REIShopKit/Classes/UIViewController+ShopAnalytics.m"; sourceTree = "<group>"; };
 		B588581A22E8FE5200298BC9 /* UIViewController+ShopAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ShopAnalytics.h"; path = "REIShopKit/Classes/UIViewController+ShopAnalytics.h"; sourceTree = "<group>"; };
+		B588581D22E8FF3000298BC9 /* ShopKitAnalyticsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopKitAnalyticsHelper.m; path = REIShopKit/Classes/ShopKitAnalyticsHelper.m; sourceTree = "<group>"; };
+		B588581E22E8FF3000298BC9 /* ShopKitAnalyticsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopKitAnalyticsHelper.h; path = REIShopKit/Classes/ShopKitAnalyticsHelper.h; sourceTree = "<group>"; };
 		B93BF06F085F85603CCD451442211D35 /* REIShopKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REIShopKit.xcconfig; sourceTree = "<group>"; };
 		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC01E62C44DCE1F4AE273A0E7BFCCD72 /* NewRelicAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicAgent.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicAgent.h; sourceTree = "<group>"; };
@@ -691,6 +695,8 @@
 		80838B32B4623BCF153775A83FF3AD9D /* REIShopKit */ = {
 			isa = PBXGroup;
 			children = (
+				B588581E22E8FF3000298BC9 /* ShopKitAnalyticsHelper.h */,
+				B588581D22E8FF3000298BC9 /* ShopKitAnalyticsHelper.m */,
 				B588581A22E8FE5200298BC9 /* UIViewController+ShopAnalytics.h */,
 				B588581922E8FE5200298BC9 /* UIViewController+ShopAnalytics.m */,
 				B588581722E8FDE900298BC9 /* AnalyticsProvider.h */,
@@ -982,6 +988,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B588582222E8FFAF00298BC9 /* AnalyticsProvider.h in Headers */,
+				B588582122E8FF9C00298BC9 /* ShopKitAnalyticsHelper.h in Headers */,
 				99EC590DCEC6EFAC0F6145721614F754 /* BazUtil.h in Headers */,
 				5E67F62EAC1E1E03D07CEE52D34F583A /* REIShopKit-umbrella.h in Headers */,
 			);
@@ -994,7 +1002,6 @@
 				B588581C22E8FE5300298BC9 /* UIViewController+ShopAnalytics.h in Headers */,
 				1E6BBD165B0FCB9AE31C4DC26120BD4B /* ACPAnalytics-umbrella.h in Headers */,
 				D557F4995C71A9FC018B3B2F3F51EBB6 /* ACPAnalytics.h in Headers */,
-				B588581822E8FDEA00298BC9 /* AnalyticsProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1255,6 +1262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B588582322E8FFDB00298BC9 /* ShopKitAnalyticsHelper.m in Sources */,
 				4057968F93C17BDE1DC695A81FC8B88C /* BarUtil.swift in Sources */,
 				F62F3362181AC17910F65ADAA68A1317 /* BazUtil.m in Sources */,
 				74050C38B5F775FE1FA34BDE418308A4 /* FooUtil.swift in Sources */,

@@ -8,6 +8,7 @@
 
 #import "ShopKitAnalyticsHelper.h"
 
+//#import <NewRelicAgent/NewRelic.h>
 #import <NewRelicAgent/NewRelic.h>
 
 @implementation ShopKitAnalyticsHelper
