@@ -8,18 +8,46 @@
 
 #import "ShopKitAnalyticsHelper.h"
 
-//#import <NewRelicAgent/NewRelic.h>
+#import "ACPCore.h"
+#import "ACPGriffonBridge.h"
+#import "ACPAnalytics.h"
+#import "ACPIdentity.h"
+#import "ACPLifecycle.h"
+#import "ACPSignal.h"
+#import "ACPUserProfile.h"
+
 #import <NewRelicAgent/NewRelic.h>
 
 @implementation ShopKitAnalyticsHelper
 
-+ (void)configureAdobeAnalytics {
++ (void)configureAdobeAnalytics: (NSString *)adobeApplicationId {
     NSLog(@"configuring Adobe analytics...");
+    
+#if DEBUG
+    [ACPCore setLogLevel:ACPMobileLogLevelVerbose];
+#else
+    [ACPCore setLogLevel:ACPMobileLogLevelError];
+#endif
+    
+    [ACPCore configureWithAppId:adobeApplicationId];
+    [ACPGriffonBridge registerExtension];
+    [ACPAnalytics registerExtension];
+    [ACPIdentity registerExtension];
+    [ACPLifecycle registerExtension];
+    [ACPSignal registerExtension];
+    [ACPUserProfile registerExtension];
+    [ACPCore start:^{
+        [ACPCore lifecycleStart:nil];
+    }];
+    
+    
 }
 
-+ (void)configureNewRelicAnalytics {
-    NSLog(@"configuring New Relic analytics...");
-    [NewRelicAgent startWithApplicationToken:@"AA20f451bc102b114645689092c95bb597146165c4"];
++ (void)configureNewRelicAnalytics: (NSString *)applicationToken {
+    NSLog(@"configuring New Relic analytics using application token %@", applicationToken);
+    [NewRelicAgent startWithApplicationToken:applicationToken];
+    
+    //[NewRelicAgent crashNow:@"Ascent Dev test crash for New Relic"];
 }
 
 @end
