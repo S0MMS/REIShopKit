@@ -2,12 +2,13 @@ use_frameworks!
 
 #use_modular_headers! # breaks Quick
 
-platform :ios, '10.0'
+#platform :ios, '10.0'
 
 target 'REIShopKit_Example' do
-  #use_modular_headers!
   pod 'ACPCore', '~> 2.3'
   pod 'ACPAnalytics', '~> 2.1'
+  pod 'ACPGriffonBeta', '~> 0.0'
+  pod 'ACPUserProfile', '~> 2.0'
   pod 'NewRelicAgent'
   pod 'REIShopKit', :path => '../'
 

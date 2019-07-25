@@ -7,17 +7,31 @@ PODS:
   - ACPCore (2.3.2):
     - ACPCore/iOS (= 2.3.2)
   - ACPCore/iOS (2.3.2)
+  - ACPGriffonBeta (0.0.11):
+    - ACPCore (>= 2.1.1)
+    - ACPGriffonBeta/iOS (= 0.0.11)
+  - ACPGriffonBeta/iOS (0.0.11):
+    - ACPCore (>= 2.1.1)
+  - ACPUserProfile (2.0.1):
+    - ACPCore (~> 2.0)
+    - ACPUserProfile/iOS (= 2.0.1)
+  - ACPUserProfile/iOS (2.0.1):
+    - ACPCore (~> 2.0)
   - NewRelicAgent (6.7.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - REIShopKit (0.2.1):
+  - REIShopKit (0.2.4):
     - ACPAnalytics (~> 2.1)
     - ACPCore (~> 2.3)
+    - ACPGriffonBeta (~> 0.0)
+    - ACPUserProfile (~> 2.0)
     - NewRelicAgent
 
 DEPENDENCIES:
   - ACPAnalytics (~> 2.1)
   - ACPCore (~> 2.3)
+  - ACPGriffonBeta (~> 0.0)
+  - ACPUserProfile (~> 2.0)
   - NewRelicAgent
   - Nimble (~> 7.0)
   - Quick (~> 1.2.0)
@@ -27,6 +41,8 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ACPAnalytics
     - ACPCore
+    - ACPGriffonBeta
+    - ACPUserProfile
     - NewRelicAgent
     - Nimble
     - Quick
@@ -38,11 +54,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ACPAnalytics: 872c4701bd53b508602ce1e31cf5e7cee295f690
   ACPCore: 4461c6462adec0e103d6fc1e9bdc21dee8a991e0
+  ACPGriffonBeta: c14759aa86cfd6e78648fe1bf68cdbbf08861228
+  ACPUserProfile: d5141c8f5154e10e3a08124649ddaae13efd5131
   NewRelicAgent: effc8c7164f7d8e853268b0a6381ad8e4bf1d6ad
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  REIShopKit: ab2bba2d018c5f12a2af3a90af76d3f9ce573529
+  REIShopKit: 9f4d8bc6d222b23315edb1151597f21994a11338
 
-PODFILE CHECKSUM: c38ad528959809afd1621fb2cf10c37c7520bbd7
+PODFILE CHECKSUM: 0f8eca9d1d3121f957c329cefc17de81acd02f62
 
 COCOAPODS: 1.7.4

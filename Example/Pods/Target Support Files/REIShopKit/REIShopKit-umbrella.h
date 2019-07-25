@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "AnalyticsProvider.h"
 #import "BazUtil.h"
+#import "ShopKitAnalyticsHelper.h"
+#import "UIViewController+ShopAnalytics.h"
 
 FOUNDATION_EXPORT double REIShopKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char REIShopKitVersionString[];
